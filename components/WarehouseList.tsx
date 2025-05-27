@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { Warehouse } from "../src";
+import { Warehouse } from "../types";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Input } from "./ui/input";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";

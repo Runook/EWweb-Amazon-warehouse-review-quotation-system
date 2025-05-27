@@ -1,5 +1,4 @@
-
-import { Comment, Media } from "../src";
+import { Comment, Media } from "../types";
 import { StatusBadge } from "./StatusBadge";
 import { Avatar } from "./ui/avatar";
 import { Card, CardContent } from "./ui/card";

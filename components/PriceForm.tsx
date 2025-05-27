@@ -32,7 +32,7 @@ export function PriceForm({ warehouseId, onSubmit }: PriceFormProps) {
         <form onSubmit={handleSubmit}>
           <div className="space-y-4">
             <div>
-              <Label htmlFor="amount">价格 (CNY)</Label>
+              <Label htmlFor="amount">价格 (USD)</Label>
               <Input
                 id="amount"
                 type="number"

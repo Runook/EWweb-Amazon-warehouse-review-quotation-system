@@ -1,5 +1,4 @@
-
-import { WarehouseStatus } from "../src";
+import { WarehouseStatus } from "../types";
 import { Badge } from "./ui/badge";
 import React from 'react';
 

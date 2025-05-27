@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { useState } from "react";
-import { Comment, Media, Price, Warehouse, WarehouseStatus } from ".";
+import { Comment, Media, Price, Warehouse, WarehouseStatus } from "../types";
 import { WarehouseDetail } from "../components/WarehouseDetail";
 import { WarehouseList } from "../components/WarehouseList";
 import { currentUser, getCommentsByWarehouseId, getMediaByCommentId, getPricesByWarehouseId, mockWarehouses } from "../data/mockData";
@@ -71,7 +70,7 @@ export default function App() {
       userId: currentUser.id,
       userName: currentUser.name,
       amount,
-      currency: "CNY",
+      currency: "USD",
       details,
       timestamp: new Date()
     };

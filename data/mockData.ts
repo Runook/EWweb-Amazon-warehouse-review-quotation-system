@@ -148,7 +148,7 @@ export const mockPrices: Price[] = [
     userId: "user-2",
     userName: "李师傅",
     amount: 2000,
-    currency: "CNY",
+    currency: "USD",
     details: "标准货物，20公里范围内",
     timestamp: new Date('2025-05-27T09:00:00')
   },
@@ -158,7 +158,7 @@ export const mockPrices: Price[] = [
     userId: "user-3",
     userName: "张师傅",
     amount: 2200,
-    currency: "CNY",
+    currency: "USD",
     details: "重型货物，需要大车",
     timestamp: new Date('2025-05-27T14:30:00')
   },
@@ -168,7 +168,7 @@ export const mockPrices: Price[] = [
     userId: "user-4",
     userName: "赵师傅",
     amount: 1800,
-    currency: "CNY",
+    currency: "USD",
     details: "小型货物，市内配送",
     timestamp: new Date('2025-05-27T11:15:00')
   }

@@ -1,5 +1,4 @@
-
-import { Price } from "../src";
+import { Price } from "../types";
 import { Avatar } from "./ui/avatar";
 import { Card, CardContent } from "./ui/card";
 import React from 'react';

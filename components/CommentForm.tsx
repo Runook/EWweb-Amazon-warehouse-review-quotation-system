@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { WarehouseStatus } from "../src";
+import { WarehouseStatus } from "../types";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Label } from "./ui/label";
@@ -22,7 +21,7 @@ export function CommentForm({ warehouseId, onSubmit }: CommentFormProps) {
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
-      const newFiles = Array.from(e.target.files);
+      const newFiles = Array.from(e.target.files) as File[];
       setFiles([...files, ...newFiles]);
       
       // Create previews for images

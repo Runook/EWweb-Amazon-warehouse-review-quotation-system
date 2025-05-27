@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { Comment, Media, Price, Warehouse, WarehouseStatus } from "../src";
+import { Comment, Media, Price, Warehouse, WarehouseStatus } from "../types";
 import { CommentForm } from "./CommentForm";
 import { CommentItem } from "./CommentItem";
 import { PriceForm } from "./PriceForm";
